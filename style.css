@@ -1,0 +1,54 @@
+.companyContainer {
+    box-shadow: rgba(132, 26, 26, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-width: 0.2px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://picsum.photos/200/300");
+    height: 100vh;
+  }
+  
+  .company {
+    display: inline-block;
+    border-radius: 22px;
+    font-size: 22px;
+    margin: 30px;
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  
+  .company:hover {
+    transform: scale(1.1);
+  }
+  
+  #com_a {
+    background-color: lightblue;
+  }
+  
+  #com_b {
+    background-color: navy;
+  }
+  
+  #com_c {
+    background-color: green;
+  }
+  
+  #com_d {
+    background-color: purple;
+  }
+  
+  .bizPic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: solid 1px white;
+  }
